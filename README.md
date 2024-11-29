@@ -5,7 +5,7 @@ making chatbot using fine tuned llm in fast api
 1) command line : uvicorn app:app --reload --port <your port number> in terminal
 
 2) test after deployment
-curl -X POST -H "Content-Type: application/json" -d '{"input_text": "What is AI?"}' http://127.0.0.1:5000/generate
+curl -X POST -H "Content-Type: application/json" -d '{"input_text": "What is AI?"}' http://<your_ip>/generate
 
 
 ## structure 1 ##
