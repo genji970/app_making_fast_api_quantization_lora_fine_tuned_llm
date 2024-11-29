@@ -2,7 +2,11 @@
 making chatbot using fine tuned llm in fast api 
 
 ## how to run ##
-command line : uvicorn app:app --reload --port <your port number> in terminal
+1) command line : uvicorn app:app --reload --port <your port number> in terminal
+
+2) test after deployment
+curl -X POST -H "Content-Type: application/json" -d '{"input_text": "What is AI?"}' http://127.0.0.1:5000/generate
+
 
 ## structure 1 ##
 i) teck stack : FastApi , torch , llm from huggingface, peft , quantization 
