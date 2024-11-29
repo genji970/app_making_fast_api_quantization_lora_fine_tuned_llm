@@ -24,6 +24,13 @@ iii) models folder(model.py , Fine_tuning.py , Peft.py) , app.py , requirements.
 1) data multiprocessing
 2) batch : to prevent quality degrading, make groups according to sentence length
 
+## rag ##
+
+## fine tuning by sage maker ##
+
+## use specific domain data ##
+
+## result ##
 
 not yet done : adding rag system , getting quialified dataset , using meta llama
 
