@@ -15,6 +15,9 @@ plan to add : gpu , sage maker, parallel processing
 3) Dataset : json type data will be transformed to appropriate type(for llm 'role' : ... , 'content' : ...)
 4) Fine_tuning : use this py to fine tune pretrained model before run app.py trainer.train() will make model to learn 
 
+## methods to speed up llm response ##
+1) data multiprocessing
+2) batch : to prevent quality degrading, make groups according to sentence length
 
 
 not yet done : adding rag system , getting quialified dataset , using meta llama
