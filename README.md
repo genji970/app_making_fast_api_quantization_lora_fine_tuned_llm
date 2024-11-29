@@ -5,8 +5,9 @@ making chatbot using fine tuned llm in fast api
 command line : uvicorn app:app --reload --port <your port number> in terminal
 
 ## structure 1 ##
-teck stack : FastApi , torch , llm from huggingface, peft , quantization 
-plan to add : gpu , sage maker, parallel processing
+i) teck stack : FastApi , torch , llm from huggingface, peft , quantization 
+ii) plan to add : gpu , sage maker, parallel processing
+iii) models folder(model.py , Fine_tuning.py , Peft.py) , app.py , requirements.txt
 
 ## structure 2 ##
 
