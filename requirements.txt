@@ -1,0 +1,9 @@
+pip install transformers
+pip install fastapi
+pip install pydantic
+pip install peft
+pip install huggingface_hub
+pip install uvicorn
+pip install torch
+pip install datasets
+
