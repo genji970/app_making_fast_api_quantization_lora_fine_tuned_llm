@@ -37,3 +37,6 @@ ce loss does not follow human preference. need to put weights
 
 not yet done : adding rag system , getting quialified dataset , using meta llama
 
+## problem ##
+1. format을 적절히 반환 못할 가능성이 높다 -> two stage로 prompting 혹은 핵심 요소만 반환받고 이걸 csv로 만든다 
+
